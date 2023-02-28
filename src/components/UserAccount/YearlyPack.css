@@ -41,7 +41,7 @@
   left: 9px;
   top: 6px;
   font-size: 1.4rem;
-  
+
  }
 
 .payment-page2 h1{
@@ -54,7 +54,7 @@
   -webkit-text-fill-color: transparent;
   position: relative;
   top: 1.5rem;
-  
+
 }
 .payment-page2{
   /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
@@ -65,7 +65,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
 }
 
 
@@ -79,7 +79,7 @@
  justify-content: center;
  align-items: center;
  border: 2px solid rgb(128, 126, 126);
- 
+
 }
 
 .stripe-payment2:hover{
@@ -107,10 +107,9 @@
   left: 9px;
   top: 6px;
   font-size: 1.4rem;
-  
+
  }
 
- 
 
 .stripe-payment2 a{
  text-decoration: none;

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&display=swap');
+
+:root {
+    --base-color: #31313A;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --grey-color-900: #CBCBCB;
+    --grey-color-500: #F2F1FC;
+    --primary-color: #504A96;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.h1, .h2, .h3 {font-weight: 700;}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    width: 10px;
+}
+.radius-10 {border-radius: 10px;}
+.radius-20 {border-radius: 20px;}
+.bg-grey {background: var(--grey-color-500);}
+.btn-md {
+    min-width: 170px;
+    text-align: center;
+    font-weight: 600;
+    min-height: 50px;
+    padding: .65rem 1.6rem;
+}
+.btn-outline-primary {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 30px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color)!important;
+    color: var(--white-color);
+}
+
+.form-control { min-height: 48px; padding: 15px;}
+
+footer {position: relative; z-index: 1;}
+/* Circle */
+.circle_layer {position: absolute; bottom: -200px; left: 0; width: 200px; z-index: -1;}
+.circle_layer svg {width: 100%;}
+
+.payment, .stripe-payment {transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out;}
+.payment:hover, .stripe-payment:hover {transform: scale(1.05);}
