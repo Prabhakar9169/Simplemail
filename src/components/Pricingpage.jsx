@@ -13,7 +13,7 @@ import { ReactComponent as Layer } from '../assets/circle_vector.svg'
 const PricingPage = () => {
   //const apiUrl = "https://localhost:3000"; //local
 
-   const apiUrl = "https://api.simplemail.ai"; //local
+ const apiUrl = "https://api.simplemail.ai"; //local
   const Location = useLocation();
   const [id, setid] = useState("")
   const [Check, setCheck] = useState(null)
@@ -84,7 +84,7 @@ const PricingPage = () => {
 
           <div className="choose_plan">
             <div className="row g-lg-5 justify-content-center">
-              <div className="col-lg-4 col-md-6 mb-4 free">
+              <div  className="col-lg-4 col-md-6 mb-4">
                 <div className="plans_block">
                   <div className="plan_header">
                     <div className="d-flex justify-content-between align-items-center">
@@ -117,7 +117,7 @@ const PricingPage = () => {
                   </div>
                   <hr />
                   <div className="plan_footer text-center">
-                    <button className="btn btn-md btn-outline-primary radius-40" onClick={freetrial}>Get Started Free</button>
+                    <button id='free' className="btn btn-md btn-outline-primary radius-40" onClick={freetrial}>Get Started Free</button>
                   </div>
                 </div>
               </div>
