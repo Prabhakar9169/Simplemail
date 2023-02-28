@@ -34,7 +34,7 @@ const PricingPage = () => {
     console.log(check.data);
     setCheck(check.data)
     if (check.data) {
-      document.getElementById('accordion').style.visibility = "hidden";
+      document.getElementById('free').style.visibility = "hidden";
     }
   }
 
@@ -84,7 +84,7 @@ const PricingPage = () => {
 
           <div className="choose_plan">
             <div className="row g-lg-5 justify-content-center">
-              <div className="col-lg-4 col-md-6 mb-4">
+              <div className="col-lg-4 col-md-6 mb-4 free">
                 <div className="plans_block">
                   <div className="plan_header">
                     <div className="d-flex justify-content-between align-items-center">

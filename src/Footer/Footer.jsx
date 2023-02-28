@@ -68,7 +68,7 @@ function Footer() {
                   </a>
                 </p>
                 <p>
-                  <a href='/pricing/cancelSubscription' className='text-reset'>
+                  <a href={`/pricing/cancelSubscription?id=${localStorage.getItem('id')}`}  className='text-reset'>
                     Cancellation Subscription
                   </a>
                 </p>
