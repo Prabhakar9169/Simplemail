@@ -24,7 +24,10 @@ function Nav1() {
                 </label>
               </div> */}
 
-              {/* <button className='btn2 btn-md btn-outline-primary'>Logout</button> */}
+              <button className='btn2 btn-md btn-outline-primary' onClick={()=>{
+                 window.open("https://mail.google.com/mail/")
+              
+              }}>Open Gmail</button>
 
               {/* <div className="nav-links">
                 <button className='tut' onClick={tut}> Back to Tutorial</button>
