@@ -11,9 +11,9 @@ import axios from 'axios';
 import { ReactComponent as Layer } from '../assets/circle_vector.svg'
 
 const PricingPage = () => {
-  //const apiUrl = "https://localhost:3000"; //local
+  const apiUrl = "https://localhost:3000"; //local
 
- const apiUrl = "https://api.simplemail.ai"; //local
+ //const apiUrl = "https://api.simplemail.ai"; //local
   const Location = useLocation();
   const [id, setid] = useState("")
   const [Check, setCheck] = useState(null)
@@ -117,7 +117,7 @@ const PricingPage = () => {
                   </div>
                   <hr />
                   <div className="plan_footer text-center">
-                    <button id='free' className="btn btn-md btn-outline-primary radius-40" onClick={freetrial}>Get Started Free</button>
+                    <button id='free' className="btn btn-md btn-outline-primary radius-40" onClick={freetrial}>Start Free</button>
                   </div>
                 </div>
               </div>
