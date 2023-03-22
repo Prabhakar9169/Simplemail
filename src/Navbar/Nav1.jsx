@@ -28,6 +28,10 @@ function Nav1() {
                  window.open("https://mail.google.com/mail/")
               
               }}>Open Gmail</button>
+              <button className='btn2 btn-md btn-outline-primary' onClick={()=>{
+                 window.open("https://outlook.live.com/mail/")
+              
+              }}>Open Outlook</button>
 
               {/* <div className="nav-links">
                 <button className='tut' onClick={tut}> Back to Tutorial</button>
