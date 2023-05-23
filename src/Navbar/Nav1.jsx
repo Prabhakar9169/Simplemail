@@ -9,12 +9,12 @@ function Nav1() {
   return (
     <>
 
-      <header class="header">
-        <div class="container">
-          <div class="d-flex justify-content-between">
-            <a href="javascript:void(0);" onClick={tut}><img src="../images/simplemail_logo.png" alt="Simple Mail" title="SimpleMail" width="200" /></a>
+      <header className="header">
+        <div className="container">
+          <div className="d-flex justify-content-between">
+         
 
-            <div class="d-inline-block rht_col">
+            <div className="d-inline-block rht_col "  style={{height: "40px"}}>
 
               {/* <div className="nav-btn">
                 <label for="nav-check">
@@ -24,10 +24,7 @@ function Nav1() {
                 </label>
               </div> */}
 
-              <button className='btn2 btn-md btn-outline-primary' onClick={()=>{
-                 window.open("https://mail.google.com/mail/")
               
-              }}>Open Gmail</button>
 
               {/* <div className="nav-links">
                 <button className='tut' onClick={tut}> Back to Tutorial</button>
